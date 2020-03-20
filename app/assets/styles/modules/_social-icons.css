@@ -1,0 +1,39 @@
+.social-icons {
+    position: absolute;
+    bottom:2rem;
+    right:2rem;
+    float:right;
+}
+
+.nav-item {
+    list-style-type: none;
+    float: left;
+    padding: 1.5rem;
+    color: #fff;
+        display: inline-block;
+
+}
+
+.nav-link {
+    color: #fff;
+        display: inline-block;
+        font-size: 2rem;
+        
+        .fab.fa-github {
+            color: #fff;
+            display: inline-block;
+        }
+   
+
+}
+
+
+
+.text-white {
+    color: #fff;
+}
+
+.fab {
+    color: #fff;
+
+}

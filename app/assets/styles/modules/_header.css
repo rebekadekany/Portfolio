@@ -1,0 +1,26 @@
+.header {
+
+    &__logo {
+        float: left;
+        margin-top: 1rem;
+        margin-left: 5rem;
+        padding: 1.5rem;
+        font-weight: 700;
+
+    }
+
+    &__navbar {
+
+        right: 0;
+        margin-top: 1rem;
+        margin-right: 5rem;
+        float: right;
+
+        &__list {
+
+            list-style-type: none;
+            float: left;
+            padding: 1.5rem;
+        }
+    }
+}

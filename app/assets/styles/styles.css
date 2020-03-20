@@ -1,1 +1,5 @@
-@import "..\assets\styles\base\global"
+@import "base/_global";
+@import "modules/_header.css";
+@import "modules/_homepage.css";
+@import "modules/_social-icons.css";
+@import "modules/_button.css";

@@ -1,0 +1,22 @@
+#homepage {
+    background-image: linear-gradient(to left, #274846, #305653, #262244);
+    color: #fff;
+    height: 768px;
+    position: relative;
+
+    .homepage__intro {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+
+        &__title {
+            padding-bottom: 2rem;
+            font-size: 2.8rem;
+        }
+
+        &__description {
+            padding-bottom: 2rem;
+            font-weight: 300;
+        }
+    }
+}

@@ -7,6 +7,13 @@
 
     <title>Rebeka Dekany Portfolio</title>
 
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+    <!-- CSS STYLESHEET -->
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- Icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -14,33 +21,35 @@
     <section id="homepage">
 
         <div class="header">
-            <span class="logo">R.D.</span>
+            <span class="header__logo">R. D.</span>
 
-            <nav class="header__navigation">
+            <nav class="header__navbar">
                 <ul>
-                    <li>about me</li>
-                    <li>my work</li>
-                    <li>contact</li>
+                    <li class="header__navbar__list">about me</li>
+                    <li class="header__navbar__list">my work</li>
+                    <li class="header__navbar__list">contact</li>
                 </ul>
             </nav>
         </div>
 
-        <div class="startpage">
+        <div class="homepage__intro">
 
-            <h1>Hi there, I'm Rebeka</h1>
-            <h3>a junior front-end Developer</h3>
-            <button class="btn startpage__btn">My Project</button>
+            <h1 class="homepage__intro__title">Hi there, I'm Rebeka</h1>
+            <h3 class="homepage__intro__description">a junior front-end Developer</h3>
+            <button class="btn btn__homepage">My project</button>
         </div>
 
-        <ul>
-            <li>
-                <a href="https://github.com/kakapofelix/Chess"> <i class="fab fa-github"> </i> </a>
+        <ul class="social-icons">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="https://github.com/kakapofelix/Chess"> <i class="fab fa-github">
+                    </i> </a>
             </li>
-            <li>
-                <a href="https://dribbble.com/kakapofelix"> <i class="fab fa-dribbble"> </i> </a>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="https://dribbble.com/kakapofelix"> <i class="fab fa-dribbble"> </i>
+                </a>
             </li>
-            <li>
-                <a href=""> <i class="fab fa-linkedin"> </i> </a>
+            <li class="nav-item">
+                <a class="nav-link text-white" href=""> <i class="fab fa-linkedin"> </i> </a>
             </li>
         </ul>
     </section>
@@ -119,6 +128,9 @@
         <span>© 2020 Rebeka Dekany. All rights reserved.</span>
 
     </section>
+
+    <script src="bundled.js"></script>
+
 </body>
 
 </html>
