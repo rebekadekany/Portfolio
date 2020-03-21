@@ -7,10 +7,9 @@
 
 .nav-item {
     list-style-type: none;
-    float: left;
     padding: 1.5rem;
     color: #fff;
-        display: inline-block;
+    display: inline-block;
 
 }
 

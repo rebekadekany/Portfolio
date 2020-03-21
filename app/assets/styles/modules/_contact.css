@@ -1,0 +1,29 @@
+#contact {
+    background-image: linear-gradient(to left, #274846, #305653, #262244);
+    color: #fff;
+
+}
+
+.contact-container {
+    text-align: center;
+    height: 340px;
+
+    &__bottom {    
+        font-size: .6rem;
+    }
+
+    &__middle {
+        margin: 0 auto; 
+        text-align: center;
+        padding-bottom: 3rem;
+        width: 40%;
+        line-height: 1.5;
+    }
+    
+    &__title {
+        color: #00FFE5; 
+        padding: 3rem 0; 
+        font-size: 2rem;
+        text-align: left;
+    }
+}
