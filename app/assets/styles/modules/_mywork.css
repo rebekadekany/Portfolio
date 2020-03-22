@@ -4,9 +4,9 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        padding: 5rem 0;
         font-size: 2.5rem;
-        color: #00FFE5;
+        color: $mainBlue;
+        padding-bottom: 5rem;
     }
 
     &__main-note {
@@ -34,16 +34,6 @@
         flex: 1;
         width: 90%;
         padding: 3rem;
-        -webkit-box-flex: 1;
-        /* OLD - iOS 6-, Safari 3.1-6 */
-        -moz-box-flex: 1;
-        /* OLD - Firefox 19- */
-        width: 20%;
-        /* For old syntax, otherwise collapses. */
-        -webkit-flex: 1;
-        /* Chrome */
-        -ms-flex: 1;
-        /* IE 10 */
 
         &__list {
             padding-top: 1rem;
@@ -65,7 +55,7 @@
 .myrole {
     display: flex;
     flex-direction: column;
-    background-color: #00FFE5;
+    background-color: $mainBlue;
     text-align: left;
     justify-content: center;
     margin: 4rem 10rem;

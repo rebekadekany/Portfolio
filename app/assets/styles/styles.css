@@ -1,4 +1,6 @@
 @import "base/_global";
+@import "base/_variables";
+@import "base/_mixins";
 @import "modules/_header.css";
 @import "modules/_homepage.css";
 @import "modules/_social-icons.css";

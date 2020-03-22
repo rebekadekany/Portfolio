@@ -1,5 +1,5 @@
-#contact {
-    background-image: linear-gradient(to left, #274846, #305653, #262244);
+.contact {
+    background-image: linear-gradient(to left, $background-color1, $background-color2, $background-color3);
     color: #fff;
 
 }
@@ -22,7 +22,7 @@
     }
     
     &__title {
-        color: #00FFE5; 
+        color: $mainBlue;
         padding: 3rem 0; 
         font-size: 2rem;
         text-align: left;

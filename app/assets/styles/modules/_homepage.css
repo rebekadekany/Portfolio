@@ -1,5 +1,5 @@
 #homepage {
-    background-image: linear-gradient(to left, #274846, #305653, #262244);
+    background-image: linear-gradient(to left, $background-color1, $background-color2, $background-color3);
     color: #fff;
     height: 768px;
     position: relative;
@@ -8,6 +8,11 @@
         position: absolute;
         top: 30%;
         left: 10%;
+
+        a {
+            color: $mainBlue;
+            text-decoration: none;
+        }
 
         &__title {
             padding-bottom: 2rem;
@@ -19,4 +24,10 @@
             font-weight: 300;
         }
     }
+}
+
+
+.scroll-project {
+    scroll-behavior: smooth;
+
 }

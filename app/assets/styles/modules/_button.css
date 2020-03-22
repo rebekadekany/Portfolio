@@ -1,29 +1,33 @@
 .btn {
     width: 150px;
     height: 60px;
-    border: solid 2px #00FFE5;
+    border: solid 2px $mainBlue;
     font-weight: 600;
     letter-spacing: 1px;
 
+    &__contact {
+        margin: auto;
+        padding: auto;
 
+
+        &__main {
+         
+             color: $mainBlue;
+             text-decoration: none;
+        }
+    }
 
     &__homepage {
         background-color: transparent;
-        color: #00FFE5;
+        color: $mainBlue;
         font-size: 1.2rem;
-
     }
 
     &__mywork {
         margin-left: 1rem;
-        background-color: #00FFE5;
+        background-color: $mainBlue;
         box-shadow: 3px 3px 10px;
         width: 120px;
         height: 50px;
-
-
-
-
-
     }
 }

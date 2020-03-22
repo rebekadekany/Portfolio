@@ -12,48 +12,61 @@
     <!-- CSS STYLESHEET -->
     <link rel="stylesheet" href="styles/styles.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/dojo/1.13.0/dojo/dojo.js"></script>
+
+
     <!-- Icon library -->
-    <script src="https://kit.fontawesome.com/b40f20affd.js" crossorigin="anonymous"></script></head>
+</head>
 
 <body>
 
     <section id="homepage">
 
-        <div class="header">
-            <span class="header__logo">R. D.</span>
 
-            <nav class="header__navbar">
-                <ul>
-                    <li class="header__navbar__list">about me</li>
-                    <li class="header__navbar__list">my work</li>
-                    <li class="header__navbar__list">contact</li>
-                </ul>
-            </nav>
-        </div>
+        <header class="header">
 
-        <div class="homepage__intro">
 
-            <h1 class="homepage__intro__title">Hi there, I'm Rebeka</h1>
-            <h3 class="homepage__intro__description">a junior front-end Developer</h3>
-            <button class="btn btn__homepage">My project</button>
-        </div>
+            <div class="header__menu-icon">
+                <div class="header__menu-icon__middle">
+                </div>
+            </div>
 
-        <ul class="social-icons">
-            <li class="nav-item">
-                <a class="nav-link" href="https://github.com/kakapofelix/Chess"> <i class="fab fa-github fa-2x">
-                    </i> </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="https://dribbble.com/kakapofelix"> <i class="fab fa-dribbble fa-2x"> </i>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href=""> <i class="fab fa-linkedin fa-2x"> </i> </a>
-            </li>
-        </ul>
+            <div class="nav">
+                <span class="header__logo">R. D.</span>
+
+
+                <nav class="header__navbar">
+                    <ul>
+                        <li class="header__navbar__list"> <a href="#scroll-one"> about me</a></li>
+                        <li class="header__navbar__list"> <a href="#scroll-two">my work</a> </li>
+                        <li class="header__navbar__list"> <a href="#scroll-three">contact</a> </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="homepage__intro">
+
+                <h1 class="homepage__intro__title">Hi there, I'm Rebeka</h1>
+                <h3 class="homepage__intro__description">a junior front-end Developer</h3>
+                <button class="btn btn__homepage"><a href="scroll-project"> My Project</a> </button>
+            </div>
+
+            <ul class="social-icons">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/kakapofelix/Chess"> <i class="fab fa-github fa-2x">
+                        </i> </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://dribbble.com/kakapofelix"> <i class="fab fa-dribbble fa-2x"> </i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href=""> <i class="fab fa-linkedin fa-2x"> </i> </a>
+                </li>
+            </ul>
     </section>
 
-    <section id="content-container">
+    <section id="scroll-one">
         <div class="wrapper">
             <div class="aboutme">
 
@@ -82,105 +95,111 @@
             </div>
         </div>
 
-        <div class="mywork">
+        <section id="scroll-two">
+            <div class="mywork">
+                <div class="wrapper">
+
+                    <h3 class="mywork__main-title">My work</h3>
+                    <span class="mywork__main-note">I am glad to show you a project that I am currently working
+                        on:</span>
+                    <img class="mywork__main-image" src="\assets\images\Chess-site-image.jpg"
+                        alt="Orsolya Rebeka portfolio chess-site">
+
+                    <div class="scroll-project">
+
+                        <div class="mywork-content">
+
+                            <div class="mywork-content__container">
+                                <h4 class="mywork-content__container__title">The Chess site</h4>
+                                <span class="mywork-content__container__description">Follow the hungarian chess
+                                    grandmaster's
+                                    tournaments,
+                                    check his analysis and learn the basics from one
+                                    of the best chess player in the world. This project will be published very
+                                    soon.</span>
+                                <ul>
+                                    <li class="mywork-content__container__list">HTML / CSS / JavaScript</li>
+                                    <li class="mywork-content__container__list">NPM, Webpack</li>
+                                    <li class="mywork-content__container__list">PostCSS</li>
+                                </ul>
+                            </div>
+
+
+                            <div class="mywork-content__container-btn">
+                                <button class="btn btn__mywork">View Code</button>
+                                <button class="btn btn__mywork">View Project</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="myrole">
+                        <div class="myrole-container">
+                            <h4 class="myrole-container__title">My role</h4>
+                            <span class="myrole-container__description">Meeting the client regularly and discussing the
+                                goal.
+                                Start the plan with identifying the
+                                scope.
+                                Wireframing & prototyping with creating the real content and its design. The website is
+                                in
+                                testing phase
+                                right now and Will be launched soon.</span>
+                        </div>
+                        <div class="myrole-container">
+
+                            <h4 class="myrole-container__title">Project difficulties</h4>
+                            <span class="myrole-container__description">In the beginning I was struggling with making
+                                the
+                                background picture responsive and sticking
+                                the
+                                footer to the bottom. I used Bootstrap 4 for responsiveness, but it did not work out
+                                well in
+                                each case.
+                            </span>
+                        </div>
+
+                        <div class="myrole-container">
+
+                            <h4 class="myrole-container__title">My solution</h4>
+                            <span class="myrole-container__description">Using Boostrap 4 is one way for responsiveness,
+                                but
+                                I
+                                personally prefer Media Query, it was
+                                easier to
+                                customize the elements for me. The footer has solved with negative bottom maring in CSS.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </section>
+
+
+    <section id="scroll-three">
+        <div class="contact">
             <div class="wrapper">
+                <div class="contact-container">
+                    <h3 class="contact-container__title">Get in touch</h3>
+                    <div class="contact-container__middle">
 
-                <h3 class="mywork__main-title">My work</h3>
-                <span class="mywork__main-note">I am glad to show you a project that I am currently working on:</span>
-                <img class="mywork__main-image" src="\assets\images\Chess-site-image.jpg"
-                    alt="Orsolya Rebeka portfolio chess-site">
+                        <span class="contact-container__middle__description">If you have a project that you want to
+                            share or
+                            start, just contact
+                            me.</span>
 
-                <div class="mywork-content">
-
-                    <div class="mywork-content__container">
-                        <h4 class="mywork-content__container__title">The Chess site</h4>
-                        <span class="mywork-content__container__description">Follow the hungarian chess grandmaster's
-                            tournaments,
-                            check his analysis and learn the basics from one
-                            of the best chess player in the world. This project will be published very soon.</span>
-                        <ul>
-                            <li class="mywork-content__container__list">HTML / CSS / JavaScript</li>
-                            <li class="mywork-content__container__list">NPM, Webpack</li>
-                            <li class="mywork-content__container__list">PostCSS</li>
-                        </ul>
+                        <p class="btn btn__contact">
+                            <a href="mailto:o.dekany@gmail.com" class="btn__contact__main">Message me
+                            </a>
+                        </p>
                     </div>
 
-                    <div class="mywork-content__container-btn">
-                        <button class="btn btn__mywork">View Code</button>
-                        <button class="btn btn__mywork">View Project</button>
-                    </div>
-
+                    <span class="contact-container__bottom">© 2020 Rebeka Dekany. All rights reserved.</span>
                 </div>
-
-                <div class="myrole">
-                    <div class="myrole-container">
-                        <h4 class="myrole-container__title">My role</h4>
-                        <span class="myrole-container__description">Meeting the client regularly and discussing the
-                            goal.
-                            Start the plan with identifying the
-                            scope.
-                            Wireframing & prototyping with creating the real content and its design. The website is in
-                            testing phase
-                            right now and Will be launched soon.</span>
-                    </div>
-                    <div class="myrole-container">
-
-                        <h4 class="myrole-container__title">Project difficulties</h4>
-                        <span class="myrole-container__description">In the beginning I was struggling with making the
-                            background picture responsive and sticking
-                            the
-                            footer to the bottom. I used Bootstrap 4 for responsiveness, but it did not work out well in
-                            each case.
-                        </span>
-                    </div>
-
-                    <div class="myrole-container">
-
-                        <h4 class="myrole-container__title">My solution</h4>
-                        <span class="myrole-container__description">Using Boostrap 4 is one way for responsiveness, but
-                            I
-                            personally prefer Media Query, it was
-                            easier to
-                            customize the elements for me. The footer has solved with negative bottom maring in CSS.
-                        </span>
-                    </div>
-                </div>
-
-            </div>
-    </section>
-
-    </section>
-
-
-
-    <section id="contact">
-        <div class="wrapper">
-            <div class="contact-container">
-                <h3 class="contact-container__title">Get in touch</h3>
-                <div class="contact-container__middle">
-
-                    <span class="contact-container__middle__description">If you have a project that you want to share or
-                        start, just contact
-                        me.</span>
-
-                    <ul>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://github.com/kakapofelix/Chess"> <i class="fab fa-github fa-2x"> </i> </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://dribbble.com/kakapofelix"> <i class="fab fa-dribbble fa-2x"> </i> </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href=""> <i class="fab fa-linkedin fa-2x"> </i> </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <span class="contact-container__bottom">© 2020 Rebeka Dekany. All rights reserved.</span>
             </div>
     </section>
 
     <script src="bundled.js"></script>
+
 
 </body>
 
