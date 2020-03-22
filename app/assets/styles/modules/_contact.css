@@ -19,12 +19,6 @@
         width: 40%;
         line-height: 1.5;
 
-        li {
-            list-style: none;
-            display: inline;
-            font-size:2rem;
-            padding: 1rem;
-        }
     }
     
     &__title {

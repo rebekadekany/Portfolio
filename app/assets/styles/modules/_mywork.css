@@ -1,6 +1,5 @@
 .mywork {
 
-
     &__main-title {
         display: flex;
         justify-content: center;
@@ -21,20 +20,19 @@
         justify-content: center;
         text-align: center;
         margin: auto;
-        width: 70%;
-        padding: 3rem 0;
+        width: 90%;
+        padding: 2rem 0;
     }
-
 }
 
 .mywork-content {
     display: flex;
     line-height: 1.5;
 
-
     &__container {
 
         flex: 1;
+        width: 90%;
         padding: 3rem;
         -webkit-box-flex: 1;
         /* OLD - iOS 6-, Safari 3.1-6 */
@@ -47,23 +45,14 @@
         -ms-flex: 1;
         /* IE 10 */
 
-
-        &__description {
-            
-        }
-
         &__list {
-
             padding-top: 1rem;
-
         }
 
         &__title {
             padding-bottom: 1rem;
             font-size: 1.5rem;
-
         }
-
     }
 
     &__container-btn {
@@ -79,10 +68,8 @@
     background-color: #00FFE5;
     text-align: left;
     justify-content: center;
-    margin:4rem 10rem;
+    margin: 4rem 10rem;
     box-shadow: 3px 3px 10px;
-
-
 }
 
 .myrole-container {
@@ -90,11 +77,9 @@
     padding: 1.5rem 3rem;
     line-height: 1.5;
 
-
     &__title {
-        padding-bottom:1rem;
+        padding-bottom: 1rem;
         font-size: 1.2rem;
         font-weight: 600;
     }
-
 }

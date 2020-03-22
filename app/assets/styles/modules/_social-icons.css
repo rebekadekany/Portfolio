@@ -10,29 +10,8 @@
     padding: 1.5rem;
     color: #fff;
     display: inline-block;
-
 }
 
 .nav-link {
     color: #fff;
-        display: inline-block;
-        font-size: 2rem;
-        
-        .fab.fa-github {
-            color: #fff;
-            display: inline-block;
-        }
-   
-
-}
-
-
-
-.text-white {
-    color: #fff;
-}
-
-.fab {
-    color: #fff;
-
 }
