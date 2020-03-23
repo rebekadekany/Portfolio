@@ -8,10 +8,10 @@
 .nav-item {
     list-style-type: none;
     padding: 1.5rem;
-    color: #fff;
+    color: $mainWhite;
     display: inline-block;
 }
 
 .nav-link {
-    color: #fff;
+    color: $mainWhite;
 }

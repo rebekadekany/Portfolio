@@ -6,6 +6,11 @@ body {
     height: 100%;
     
   }
+
+  a {
+    color: #00FFE5;
+    text-decoration: none;
+}
   
   img {
     max-width: 100%;

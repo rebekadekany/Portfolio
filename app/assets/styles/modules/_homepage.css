@@ -1,6 +1,6 @@
 #homepage {
     background-image: linear-gradient(to left, $background-color1, $background-color2, $background-color3);
-    color: #fff;
+    color: $mainWhite;
     height: 768px;
     position: relative;
 
@@ -9,10 +9,7 @@
         top: 30%;
         left: 10%;
 
-        a {
-            color: $mainBlue;
-            text-decoration: none;
-        }
+    
 
         &__title {
             padding-bottom: 2rem;

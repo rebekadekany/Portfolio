@@ -7,14 +7,10 @@
 
     &__contact {
         margin: auto;
-        padding: auto;
-
-
-        &__main {
-         
-             color: $mainBlue;
-             text-decoration: none;
-        }
+        background-color: transparent;
+        font-size: 1.2rem;
+        display: block;
+        margin-top:2rem;
     }
 
     &__homepage {

@@ -1,29 +1,28 @@
 .contact {
     background-image: linear-gradient(to left, $background-color1, $background-color2, $background-color3);
-    color: #fff;
+    color: $mainWhite;
 
 }
 
 .contact-container {
     text-align: center;
-    height: 340px;
+    height: 360px;
 
-    &__bottom {    
+    &__bottom {
         font-size: .6rem;
     }
 
     &__middle {
-        margin: 0 auto; 
-        text-align: center;
-        padding-bottom: 3rem;
+        margin: 0 auto;
+        margin-bottom: 3rem;
         width: 40%;
         line-height: 1.5;
 
     }
-    
+
     &__title {
         color: $mainBlue;
-        padding: 3rem 0; 
+        padding: 3rem 0;
         font-size: 2rem;
         text-align: left;
     }
