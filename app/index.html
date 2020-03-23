@@ -12,7 +12,7 @@
     <!-- CSS STYLESHEET -->
     <link rel="stylesheet" href="styles/styles.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/dojo/1.13.0/dojo/dojo.js"></script>
+    <script src="https://kit.fontawesome.com/b40f20affd.js" crossorigin="anonymous"></script>
 
 
     <!-- Icon library -->
@@ -102,33 +102,36 @@
                 <div class="wrapper">
 
                     <h3 class="mywork__main-title">My work</h3>
-                    <span class="mywork__main-note">I am glad to show you a project that I am currently working
-                        on:</span>
-                    <img class="mywork__main-image" src="\assets\images\Chess-site-image.jpg"
-                        alt="Orsolya Rebeka portfolio chess-site">
+                    <span class="mywork__main-note">The Chess Website</span>
+
+                        <img class="mywork__main-image" src="\assets\images\Homepage.jpg"
+                            alt="Orsolya Rebeka portfolio chess-site">
 
                     <div class="scroll-project">
 
                         <div class="mywork-content">
 
                             <div class="mywork-content__container">
-                                <h4 class="mywork-content__container__title">The Chess site</h4>
                                 <span class="mywork-content__container__description">Follow the hungarian chess
                                     grandmaster's
                                     tournaments,
                                     check his analysis and learn the basics from one
-                                    of the best chess player in the world. This project will be published very
+                                    of the best chess player in the world. This project will be laucnhed very
                                     soon.</span>
                                 <ul>
-                                    <li class="mywork-content__container__list">HTML / CSS / JavaScript</li>
+                                    <li class="mywork-content__container__list">HTML / CSS</li>
+                                    <li class="mywork-content__container__list">JavaScript</li>
                                     <li class="mywork-content__container__list">NPM, Webpack</li>
                                     <li class="mywork-content__container__list">PostCSS</li>
+                                    <li class="mywork-content__container__list">Git</li>
+
                                 </ul>
                             </div>
 
 
                             <div class="mywork-content__container-btn">
-                                <button class="btn btn__mywork">View Code</button>
+                                <button class="btn btn__mywork"> <a href="https://github.com/kakapofelix/Chess">View
+                                        Code</a></button>
                                 <button class="btn btn__mywork">View Project</button>
                             </div>
                         </div>
@@ -136,41 +139,67 @@
                     </div>
 
                     <div class="myrole">
+
+                        <div class="myrole-container">
+
+                            <h4 class="myrole-container__title">The goal</h4>
+                            <span class="myrole-container__description">Business aims to achive, making training videos
+                                and allowing users with account to access them in long-term.
+
+                                <br> Detailed chess analysis where the users can follow up some of main the tournaments.
+
+                                <br> Follow the events, past and upcoming tournaments more consistently.
+
+                            </span>
+                        </div>
+
                         <div class="myrole-container">
                             <h4 class="myrole-container__title">My role</h4>
-                            <span class="myrole-container__description">Meeting the client regularly and discussing the
-                                goal.
-                                Start the plan with identifying the
-                                scope.
-                                Wireframing & prototyping with creating the real content and its design. The website is
-                                in
-                                testing phase
-                                right now and Will be launched soon.</span>
+                            <span class="myrole-container__description">Meeting the client regularly and understanding
+                                the conception. Each of our meeting has an important role to get some feedback from the
+                                client and make modification based requirements.
+                                <br> After research process, I started Wireframing & prototyping with creating the real
+                                content and its design. I gave an estimate and time-scale for design.
+                            </span>
                         </div>
                         <div class="myrole-container">
 
                             <h4 class="myrole-container__title">Project difficulties</h4>
-                            <span class="myrole-container__description">In the beginning I was struggling with making
-                                the
-                                background picture responsive and sticking
-                                the
-                                footer to the bottom. I used Bootstrap 4 for responsiveness, but it did not work out
-                                well in
-                                each case.
+                            <span class="myrole-container__description">I used Bootstrap 4 for responsiveness, but some
+                                element were not working out nicely, for example the background picture of the homepage
+                                on mobile size.
+
+                                <br> I was struggling with the grid system of the footer and sticking it to the bottom.
+                                The
+                                "div" containers did not align horizontally the way I wanted.
+
                             </span>
                         </div>
 
                         <div class="myrole-container">
 
                             <h4 class="myrole-container__title">My solution</h4>
-                            <span class="myrole-container__description">Using Boostrap 4 is one way for responsiveness,
-                                but
-                                I
-                                personally prefer Media Query, it was
-                                easier to
-                                customize the elements for me. The footer has solved with negative bottom maring in CSS.
+                            <span class="myrole-container__description">Bootstrap 4 is one good way for making the site
+                                responsive, but I finally installed an NPM package - "mixins" and I found it more
+                                customizable and gave cleaner code. For images, I used different sizes for each screen
+                                size, so mobile and small screen size do not need tup download big files.
+
+                                <br> I solved my footer problem with flexbox, it is super customizable and “flex” their
+                                sizes
+                                to respond to the available space. The sticking bottom problem I solved with negative
+                                margin and it works fine.
+
                             </span>
                         </div>
+
+                        <div class="myrole-container">
+
+                            <h4 class="myrole-container__title">Publishing</h4>
+                            <span class="myrole-container__description">The website will be launched very soon and I
+                                will keep it updated and maintained.
+                            </span>
+                        </div>
+
                     </div>
                 </div>
         </section>
