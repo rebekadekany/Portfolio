@@ -1,26 +1,42 @@
 .aboutme {
+    height: 320px;
+    position: relative;
+
+    @mixin atSmall {
+        height: 500px;
+    }
+
+    @mixin atLarge {
+        height: 500px;
+    }
 
     &__container {
-        display: flex;
-        width: 100%;
-        margin: 0 auto;
-        line-height: 2;    
-        height: 100%;   
-        text-align: top;
-        padding-bottom: 5rem;
+        top: 25%;
+        position: absolute;
 
         &__description {
-            flex: 2;
-            padding-right: 1rem;
-            height: 120%;
-            width: 70%;
+            font-size: .7rem;
+
+
+            @mixin atSmall {
+                font-size: .9rem;
+                line-height: 2;
+            }
+
+            @mixin atMedium {
+                font-size: 1rem;
+            }
         }
 
         &__image {
-            flex: 1;
-            padding-right: 2rem;
-            width: 30%;
-            height: 70%;
+            max-width: 30%;
+            float: left;
+            margin: .5rem 1rem 1rem 0;
+
+            @mixin atMedium {
+               max-width: 35%;
+                margin: .5rem 2rem 2rem 0;
+            }
         }
     }
 
@@ -28,9 +44,22 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        padding: 5rem 0;
-        font-size: 2.5rem;
+        padding: 2rem 0;
+        font-size: 1.5rem;
         color: $mainBlue;
+
+        @mixin atSmall {
+            padding: 2rem 0 0 0;
+            font-size: 1.8rem;
+        }
+
+        @mixin atMedium {
+            font-size: 2rem;
+        }
+
+        @mixin atLarge {
+            font-size: 2.5rem;
+        }
     }
 
 }

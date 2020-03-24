@@ -1,8 +1,11 @@
 .social-icons {
     position: absolute;
     bottom:2rem;
-    right:2rem;
-    float:right;
+
+    @mixin atMedium {
+        bottom:2rem;
+        right:2rem;
+    }
 }
 
 .nav-item {
