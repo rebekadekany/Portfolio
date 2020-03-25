@@ -1,29 +1,73 @@
 .btn {
-    width: 150px;
-    height: 60px;
+    width: 120px;
+    height: 50px;
     border: solid 2px $mainBlue;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 1rem;
+    position: relative;
+    transition: 0.08s ease-in;
     letter-spacing: 1px;
+    z-index: 1;
+
+
+    @mixin atMedium {
+        font-size: 1.2rem;
+        font-weight: 600;
+        width: 150px;
+        height: 60px;
+    }
 
     &__contact {
         margin: auto;
         background-color: transparent;
-        font-size: 1.2rem;
         display: block;
-        margin-top:2rem;
+        margin-top: 2rem;
     }
 
     &__homepage {
         background-color: transparent;
         color: $mainBlue;
-        font-size: 1.2rem;
     }
 
     &__mywork {
-        margin-left: 1rem;
         background-color: $mainBlue;
         box-shadow: 3px 3px 10px;
-        width: 120px;
-        height: 50px;
+        width: 100px;
+        height: 40px;
+        margin: 1rem;
+        font-size: .8rem;
+        font-weight: 400;
+
+
+        @mixin atMedium {
+            width: 120px;
+            height: 50px;
+            font-size: 1;
+            font-weight: 600;
+
+
+        }
+
     }
+}
+
+
+.btn-fill:hover {
+    color: whitesmoke;
+}
+
+.btn-fill:before {
+    content: "";
+    position: absolute;
+    background: $mainBlue;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: -1;
+    transition: top 0.09s ease-in;
+}
+
+.btn-fill:hover:before {
+    top: 0;
 }
