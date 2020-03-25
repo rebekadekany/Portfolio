@@ -5,9 +5,11 @@
     font-weight: 400;
     font-size: 1rem;
     position: relative;
-    transition: 0.08s ease-in;
     letter-spacing: 1px;
+    border-radius: 4px;
     z-index: 1;
+    cursor: pointer;
+    background-color: $mainBlue;
 
 
     @mixin atMedium {
@@ -22,21 +24,30 @@
         background-color: transparent;
         display: block;
         margin-top: 2rem;
+        color: $mainBlue;
+
     }
 
     &__homepage {
         background-color: transparent;
         color: $mainBlue;
+
     }
 
+
     &__mywork {
-        background-color: $mainBlue;
-        box-shadow: 3px 3px 10px;
         width: 100px;
         height: 40px;
-        margin: 1rem;
         font-size: .8rem;
         font-weight: 400;
+
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0) inset,
+        0 2px 2px rgba(0, 0, 0, .1),
+        0 4px 4px rgba(0, 0, 0, .1),
+        0 8px 8px rgba(0, 0, 0, .1);
+
+        margin: 0 10px;
+        border:none;
 
 
         @mixin atMedium {
@@ -44,16 +55,26 @@
             height: 50px;
             font-size: 1;
             font-weight: 600;
-
-
         }
+    }
+
+    &__mywork:hover {
+        box-shadow: 0 2px 2px rgba(.1, 0, 0, .1) inset, 0 0 0 rgba(0, 0, 0, 0);
+            transition: all 200ms ease-in;
+
+    }
+
+    &__mywork:active {
+        background: rgba(0, 0, 0, .02);
+        
+        box-shadow: 0 -2px 2px rgba(0, 0, 0, .1) inset, 0 0 0 rgba(0, 0, 0, 0);
+        transition: all 200ms ease-out;
 
     }
 }
 
-
 .btn-fill:hover {
-    color: whitesmoke;
+    color: $background-color3;
 }
 
 .btn-fill:before {
