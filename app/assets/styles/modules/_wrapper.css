@@ -12,14 +12,24 @@
     @mixin atMedium {
         padding-right: 100px;
         padding-left: 100px;
-    
+
     }
 
     @mixin atLarge {
         padding-right: 280px;
         padding-left: 280px;
-        max-width: 1300px;
-    
+
     }
 
+    &__homepage {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper, .wrapper__homepage {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
 }

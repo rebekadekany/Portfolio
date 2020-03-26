@@ -1,22 +1,22 @@
 .social-icons {
     position: absolute;
-    text-align: center;
-    transform: translateX(50%);
+    right: 5%;
     top: 85%;
+    
 
-    @mixin atMedium {
-        text-align: right;
-        right: 15%;
-    }
 }
 
 .nav-item {
     list-style-type: none;
-    padding: 1.5rem;
-    color: $mainWhite;
     display: inline-block;
+    padding-left: 3rem;
+    color: $mainWhite;    
 }
 
 .nav-link {
     color: $mainWhite;
+
+    :hover {
+        color: $mainBlue;
+    }
 }

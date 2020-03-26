@@ -9,10 +9,10 @@
         height: 650px;
     }
 
+
     .homepage__flexbox {
         display: flex;
         line-height: 2;
-        height: 100%;
         justify-content: center;
         text-align: center;
 
@@ -26,22 +26,18 @@
     .homepage__intro {
         position: absolute;
         text-align: center;
-        transform: translateY(-50%);
+        transform: translateY(-60%);
         top:50%;
 
         @mixin atMedium {
-            padding-left: 5rem;
-            padding-top: 0;
             position: relative;
-            transform: none;
-            top: 0;
-            left: 0;
+            transform: translateY(70%);            
             text-align: left;
         }
 
         &__title {
 
-            font-size: 1.5rem;
+            font-size: 2rem;
 
             @mixin atMedium {
                 font-size: 2.5rem;
@@ -54,6 +50,7 @@
         }
     }
 }
+
 
 
 .scroll-project {
