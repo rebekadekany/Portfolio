@@ -1,10 +1,12 @@
 .social-icons {
     position: absolute;
-    bottom:2rem;
+    text-align: center;
+    transform: translateX(50%);
+    top: 85%;
 
     @mixin atMedium {
-        bottom:2rem;
-        right:2rem;
+        text-align: right;
+        right: 15%;
     }
 }
 

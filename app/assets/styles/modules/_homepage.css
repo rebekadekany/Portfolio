@@ -2,11 +2,11 @@
     background-image: linear-gradient(to left, $background-color1, $background-color2, $background-color3);
     color: $mainWhite;
     height: 568px;
+    position: relative;
 
 
     @mixin atMedium {
         height: 650px;
-
     }
 
     .homepage__flexbox {
@@ -15,24 +15,28 @@
         height: 100%;
         justify-content: center;
         text-align: center;
-       
 
         @mixin atMedium {
             flex-direction: column;
             text-align: left;
             padding-bottom: 10%;
-
         }
     }
 
     .homepage__intro {
-        padding-top:10rem;
+        position: absolute;
+        text-align: center;
+        transform: translateY(-50%);
+        top:50%;
 
         @mixin atMedium {
             padding-left: 5rem;
-            padding-top:0;
-
-
+            padding-top: 0;
+            position: relative;
+            transform: none;
+            top: 0;
+            left: 0;
+            text-align: left;
         }
 
         &__title {

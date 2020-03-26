@@ -18,6 +18,7 @@
     @mixin atLarge {
         padding-right: 280px;
         padding-left: 280px;
+        max-width: 1300px;
     
     }
 

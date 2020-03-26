@@ -1,7 +1,6 @@
 .contact {
     background-image: linear-gradient(to left, $background-color1, $background-color2, $background-color3);
     color: $mainWhite;
-
 }
 
 .contact-container {
@@ -20,15 +19,18 @@
 
         @mixin atMedium {
             width: 40%;
-
         }
-
     }
 
     &__title {
         color: $mainBlue;
         padding: 3rem 0;
         font-size: 2rem;
-        text-align: left;
+        text-align: center;
+
+        @mixin atMedium {
+            text-align: left;
+
+        }
     }
 }
