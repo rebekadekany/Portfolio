@@ -5,7 +5,7 @@
 
 .contact-container {
     text-align: center;
-    height: 360px;
+    height: 430px;
 
     &__bottom {
         font-size: .6rem;
@@ -13,12 +13,13 @@
 
     &__middle {
         margin: 0 auto;
-        margin-bottom: 3rem;
-        width: 70%;
-        line-height: 1.8;
+        margin-bottom: 3rem;     
+        line-height: 1.8;     
+        width: 80%;
+        font-weight: 500;
 
         @mixin atMedium {
-            width: 40%;
+            width: 50%;
         }
     }
 

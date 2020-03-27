@@ -1,6 +1,9 @@
 .mywork {
     margin-bottom: 5rem;
     margin-top: 5rem;
+    a {
+        color: black;
+    }
 
 
     &__main-title {
@@ -42,10 +45,6 @@
 .mywork-content {
     line-height: 1.5;
 
-    a {
-        color: black;
-    }
-
     &__container {
 
         line-height: 1.8;
@@ -59,7 +58,7 @@
 
         display: block;
         text-align: center;
-        
+
     }
 
 }
@@ -67,9 +66,10 @@
 .myrole {
     display: block;
     text-align: left;
+
     @mixin atSmall {
         margin: 4rem 4rem;
-    }    
+    }
 
     @mixin atMedium {
         margin: 4rem 6rem;
@@ -79,6 +79,11 @@
 .myrole-container {
     line-height: 1.8;
 
+    &__description p{
+        margin-top: .6rem;
+  
+    }
+
 
 
     &__title {
@@ -86,6 +91,6 @@
         font-size: 1.6rem;
         font-weight: 600;
         margin: 2rem 0 1rem 0;
-        box-shadow: 5px;    
+        box-shadow: 5px;
     }
 }

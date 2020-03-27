@@ -1,20 +1,9 @@
 .aboutme {
-    height: 780px;
     position: relative;
-
-    @mixin atSmall {
-        height: 730px;
-    }
-
-    @mixin atMedium {
-        height: 580px;
-    }
-
+    height: 100%;
 
     &__container {
         top: 6rem;
-        position: absolute;
-
 
         &__description {
             line-height: 1.8;
