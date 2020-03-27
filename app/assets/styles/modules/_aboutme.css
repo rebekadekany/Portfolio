@@ -1,17 +1,15 @@
 .aboutme {
-    height: 580px;
+    height: 780px;
     position: relative;
 
     @mixin atSmall {
-        height: 560px;
-    }
-    @mixin atMedium {
-        height: 480px;
+        height: 730px;
     }
 
-    @mixin atLarge {
-        height: 430px;
+    @mixin atMedium {
+        height: 580px;
     }
+
 
     &__container {
         top: 6rem;

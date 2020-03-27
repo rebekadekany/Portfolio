@@ -21,35 +21,36 @@
 <body>
 
     <section id="homepage">
-        <div class="wrapper__homepage">
+        <section id="scroll-homepage">
+            <div class="wrapper__homepage">
 
-            <header class="header">
+                <header class="header">
 
-                <div class="header__menu-icon">
-                    <div class="header__menu-icon__middle">
+                    <div class="header__menu-icon">
+                        <div class="header__menu-icon__middle">
+                        </div>
+                    </div>
+
+                    <div class="header__menu-content">
+                        <nav class="header__navbar">
+                            <li class="header__navbar__list"> <a href="#scroll-one"> about me</a></li>
+                            <li class="header__navbar__list"> <a href="#scroll-two">my work</a> </li>
+                            <li class="header__navbar__list"> <a href="#scroll-three">contact</a> </li>
+                        </nav>
+                    </div>
+
+                </header>
+
+
+                <div class="homepage__flexbox">
+
+                    <div class="homepage__intro">
+
+                        <h1 class="homepage__intro__title">Hi there, I'm Rebeka</h1>
+                        <h3 class="homepage__intro__description">a junior front-end Developer</h3>
+                        <a href="#scroll-two"><button class="btn btn__homepage btn-fill"> My Project </button></a>
                     </div>
                 </div>
-
-                <div class="header__menu-content">
-                    <nav class="header__navbar">
-                        <li class="header__navbar__list"> <a href="#scroll-one"> about me</a></li>
-                        <li class="header__navbar__list"> <a href="#scroll-two">my work</a> </li>
-                        <li class="header__navbar__list"> <a href="#scroll-three">contact</a> </li>
-                    </nav>
-                </div>
-
-            </header>
-
-
-            <div class="homepage__flexbox">
-
-                <div class="homepage__intro">
-
-                    <h1 class="homepage__intro__title">Hi there, I'm Rebeka</h1>
-                    <h3 class="homepage__intro__description">a junior front-end Developer</h3>
-                    <a href="#scroll-two"><button class="btn btn__homepage btn-fill"> My Project </button></a>
-                </div>
-            </div>
 
                 <ul class="social-icons">
                     <li class="nav-item">
@@ -66,8 +67,8 @@
                                 class="fab fa-linkedin fa-2x"> </i> </a>
                     </li>
                 </ul>
-        </div>
-
+            </div>
+        </section>
 
     </section>
 
@@ -79,23 +80,27 @@
                 <div class="aboutme__container">
                     <img class="aboutme__container__image" src="./assets/images/profile-image.jpg"
                         alt="Orsolya Rebeka Dekany portfolio profile image">
-                    <span class="aboutme__container__description">For many years my profession was Engineering in an
-                        automotive
-                        Electronics
-                        field. After I quit my job and
-                        moved abroad, I had a great opportunity to help in running a small business. I found myself
-                        studying
-                        UX
-                        design,
-                        digging myself into books and programming all the time. I became interested in the entire
+                    <span class="aboutme__container__description">For many years, my profession was Engineering. After I
+                        moved abroad, had a great opportunity to meet the frontend world through a small business. I
+                        started studying Web Development,
+                        taking course and practicing programming. I became interested in the entire
                         frontend
-                        world.
-                        <br> <br>
-                        My goals are to focus on content, provide the message that the client wants with the latest
-                        technologies.
-                        Keeping myself up to date is essential in this fast world.
-                        <br> <br>
-                        Besides web design, I am a huge fan of birds, cycling, sport climbing and music concerts.
+                        world. Currently I am working on a few small projects as a freelancer. As a junior I can
+                        provide:
+                        <br><br>
+                        <ul>
+                            <li>Responsive HTML/CSS</li>
+                            <li>Javascript</li>
+                            <li>PostCSS</li>
+                            <li>Node Package Module</li>
+                            <li>Git</li>
+                            <li>Bootstrap 4</li>
+                        </ul>
+                        <br>
+                        My next goal is to gain deeper knowledge of Javascript and its frameworks and to have more
+                        experience. When building website, one of the most important thing for me, is the real content
+                        and able to provide the message that the client wants with the latest
+                        technologies. Also, keeping myself up to date is essential in this fast-moving world.
                     </span>
                 </div>
             </div>
@@ -120,8 +125,9 @@
                                     grandmaster's
                                     tournaments,
                                     check his analysis and learn the basics from one
-                                    of the best chess player in the world. This project will be laucnhed very
-                                    soon. <br> <strong>The languages and tools that I used:</strong> </span>
+                                    of the best chess player in the world. This project will be launched by end of April
+                                    2020 soon. <br> <strong>The languages and tools that I used:</strong> </span>
+                                <br><br>
                                 <ul>
                                     <li class="mywork-content__container__list">HTML / CSS</li>
                                     <li class="mywork-content__container__list">JavaScript</li>
@@ -135,7 +141,8 @@
                             <div class="mywork-content__container-btn">
                                 <button class="btn btn__mywork"> <a href="https://github.com/kakapofelix/Chess">View
                                         Code</a></button>
-                                <button class="btn btn__mywork">View Project</button>
+                                <button class="btn btn__mywork"> <a href="https://dribbble.com/kakapofelix/"> View
+                                        Project</a></button>
                             </div>
                         </div>
 
@@ -214,6 +221,8 @@
                                 will keep it updated and maintained.
                             </span>
                         </div>
+                        <button class="btn btn__scroll-back"> <a href="#scroll-homepage"> Back to Menu</a></button>
+
 
                     </div>
                 </div>

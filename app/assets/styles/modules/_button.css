@@ -71,6 +71,14 @@
         transition: all 200ms ease-out;
 
     }
+
+    &__scroll-back {
+        margin-top: 2rem;
+        left: 65%;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: transparent;
+    }
 }
 
 .btn-fill:hover {
