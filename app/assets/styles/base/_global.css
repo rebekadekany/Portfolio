@@ -29,8 +29,14 @@ body {
 
   html {
     scroll-behavior: smooth;
-
+  }
+  .strong {
+    font-weight: bold;
   }
 
+  .margin-value {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
 
   
