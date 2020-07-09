@@ -39,7 +39,7 @@
     &__mywork {
         width: 100px;
         height: 40px;
-        font-size: .8rem;
+        font-size: .7rem;
         font-weight: 400;
 
         box-shadow: 0 0 0 rgba(0, 0, 0, 0) inset,
@@ -47,7 +47,7 @@
         0 4px 4px rgba(0, 0, 0, .1),
         0 8px 8px rgba(0, 0, 0, .1);
 
-        margin: 0 10px;
+        margin: 50px 10px 20px 10px;
         border:none;
 
 

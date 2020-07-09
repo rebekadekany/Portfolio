@@ -8,6 +8,7 @@
     @mixin atMedium {
         height: 650px;
     }
+    
 
 
     .homepage__flexbox {
@@ -28,6 +29,7 @@
         text-align: center;
         transform: translateY(-60%);
         top:50%;
+        padding: 0 20px;
 
         @mixin atMedium {
             position: relative;
@@ -35,11 +37,21 @@
             text-align: left;
         }
 
+        @mixin atLarge {
+            position: relative;
+            transform: translateY(90%);            
+            text-align: left;
+        }
+
         &__title {
 
-            font-size: 2rem;
+            font-size: 1.3rem;
 
             @mixin atMedium {
+                font-size: 1.5rem;
+            }
+
+            @mixin atLarge {
                 font-size: 2.5rem;
             }
         }
@@ -47,6 +59,14 @@
         &__description {
             padding-bottom: 2rem;
             font-weight: 300;
+            font-size: 1rem;
+
+            @mixin atMedium {
+                font-size: 1.2rem;
+            }
+            @mixin atLarge {
+                font-size: 1.5rem;
+            }
         }
     }
 }

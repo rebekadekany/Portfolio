@@ -15,10 +15,15 @@
     list-style-type: none;
     color: $mainWhite;
     position: absolute;
-    top: 85%;
+    top: 80%;
     text-align: center;
 
     @mixin atMedium {
+        position: relative;
+        transform: translateY(650%);
+    }
+
+        @mixin atMedium {
         position: relative;
         transform: translateY(550%);
     }

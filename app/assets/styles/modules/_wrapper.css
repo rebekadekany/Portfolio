@@ -28,7 +28,7 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 800px) {
     .wrapper, .wrapper__homepage {
         max-width: 1300px;
         margin: 0 auto;

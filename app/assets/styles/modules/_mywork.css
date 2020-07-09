@@ -34,10 +34,12 @@
     margin: 2rem auto;
     display: flex;
     justify-content: center;
-    width: 590px;
+    max-width: 590px;
+    height: 80%;
 
-    &__main {
+    @mixin atMedium{
         height: 100%;
+
     }
 
     &__overlay {

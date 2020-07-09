@@ -17,6 +17,7 @@
         line-height: 1.8;     
         width: 80%;
         font-weight: 500;
+        font-size: 1.3rem;
 
         @mixin atMedium {
             width: 50%;
